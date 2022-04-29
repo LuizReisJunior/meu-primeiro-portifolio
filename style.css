@@ -7,8 +7,11 @@
 }
 
 ul{
-    list-style: none;
-        
+    list-style: none;  
+}
+i {
+    color: rgb(179, 168, 20);
+    
 }
 
 a{
@@ -21,13 +24,29 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+ header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 5px;
+ }
 
+ header ul {
+     display: flex;
+ }
+
+ header ul li{
+     padding: 10px;
+     font-size: 30px;
+     
+ }
 .container {
     text-align: center;
 }
 
 .container .name h1{
     font-size: 50px;
+    padding-top: 100px;
 }
 
 .container .name h5{
